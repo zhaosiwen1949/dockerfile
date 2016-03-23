@@ -12,3 +12,6 @@ RUN apt-get --no-install-recommends install -y python-setuptools build-essential
 
 #安装pip
 RUN easy_install pip
+
+#安装pip3
+RUN apt-get install python3-pip
