@@ -5,7 +5,7 @@ FROM registry.aliyuncs.com/zhaosiwen_registry/python:3
 MAINTAINER from registry.mirrors.aliyuncs.com by zhaosiwen_registry (caoyasong1949@163.com)
 
 #°²×°flask
-pip install flask
+RUN pip install flask
 
 #¼àÌý5000¶Ë¿Ú
 EXPOSE 5000
