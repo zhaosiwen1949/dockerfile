@@ -6,6 +6,7 @@ MAINTAINER from registry.mirrors.aliyuncs.com by zhaosiwen_registry (caoyasong19
 
 #°²×°flask
 RUN pip install flask
+RUN pip3 install flask
 
 #¼àÌý5000¶Ë¿Ú
 EXPOSE 5000
